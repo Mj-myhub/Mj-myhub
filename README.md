@@ -2,7 +2,7 @@
 
 **NLP Researcher | Foundation Models | Computational Linguistics | Language Acquisition**
 
-I'm a computational linguist based in Rome. I study how large language models like GPT-2 handle the kinds of linguistic tasks that children master during language acquisition — things like forming questions, applying morphological rules to new words, and processing incomplete sentences.
+I'm a computational linguist based in Rome. I study how large language models like GPT-2 handle the kinds of linguistic tasks that children master during language acquisition, things like forming questions, applying morphological rules to new words, and processing incomplete sentences.
 
 My master's thesis at the University of Siena explored this by fine-tuning GPT-2 at three different scales (117M, 345M, 774M) on child-directed speech from the CHILDES database, then testing the models on wh-questions, Berko's wug test, and other psycholinguistically motivated tasks. The 774M model reached 72–78% accuracy on wh-question benchmarks, with clear scaling-law patterns across all experiments.
 
