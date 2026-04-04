@@ -25,4 +25,6 @@ My master's thesis at the University of Siena explored this by fine-tuning GPT-2
 
 ## Get in touch
 
-- [LinkedIn]([https://www.linkedin.com/in/majid-jafari-994527190/](https://www.linkedin.com/in/majid-jafari-39010413b/))
+## Get in touch
+
+- [LinkedIn](https://www.linkedin.com/in/majid-jafari-39010413b/)
