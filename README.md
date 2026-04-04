@@ -1,22 +1,28 @@
-Hi, I'm Majid Jafari
-NLP Researcher | Foundation Models | Computational Linguistics | Language Acquisition
-I'm a computational linguist based in Rome, researching the intersection of deep learning and cognitive science. My work focuses on how transformer-based language models can model human language processing, with particular attention to child language acquisition.
-Research Focus
+# Hi, I'm Majid Jafari
 
-Fine-tuning and evaluating foundation models (GPT-2, BERT) on specialised linguistic tasks
-Computational modelling of cognitive processes in language
-Grounding NLP evaluation in psycholinguistic theory
+**NLP Researcher | Foundation Models | Computational Linguistics | Language Acquisition**
 
-Featured Projects
+I'm a computational linguist based in Rome. I study how large language models like GPT-2 handle the kinds of linguistic tasks that children master during language acquisition — things like forming questions, applying morphological rules to new words, and processing incomplete sentences.
 
-gpt2-language-acquisition - Fine-tuned GPT-2 (117M-774M) on CHILDES child-directed speech. Achieved 72-78% accuracy on wh-question benchmarks.
-pytorch-nlp-experiments - PyTorch + Hugging Face replications of thesis experiments.
+My master's thesis at the University of Siena explored this by fine-tuning GPT-2 at three different scales (117M, 345M, 774M) on child-directed speech from the CHILDES database, then testing the models on wh-questions, Berko's wug test, and other psycholinguistically motivated tasks. The 774M model reached 72–78% accuracy on wh-question benchmarks, with clear scaling-law patterns across all experiments.
 
-Education
+## What I work on
 
-M.Sc. Language and Mind: Linguistics and Cognitive Studies - University of Siena (2021)
+- Fine-tuning and evaluating foundation models (GPT-2, BERT) on linguistically motivated tasks
+- Computational modelling of how children and adults process language
+- Bridging NLP evaluation with psycholinguistic theory
 
-Languages
-English (C2) | Italian (B2) | Persian (Native)
-Connect
-LinkedIn
+## Featured projects
+
+- [**gpt2-language-acquisition**](https://github.com/Mj-myhub/gpt2-language-acquisition) — My thesis project: GPT-2 fine-tuned on CHILDES child-directed speech. Includes wh-question answering, Berko's wug test, and text completion experiments. [Open the notebook in Colab](https://colab.research.google.com/drive/1rbOlW9w0IQV4G3DPZvOnkFJtJjdtxBH_)
+- [**pytorch-nlp-experiments**](https://github.com/Mj-myhub/pytorch-nlp-experiments) — Standalone PyTorch + Hugging Face scripts replicating the thesis experiments
+- [**nlp-coursework**](https://github.com/Mj-myhub/nlp-coursework) — Assignments from my M.Sc. covering tokenisation, language modelling, transformers, and computational psycholinguistics
+
+## Background
+
+- M.Sc. Language and Mind: Linguistics and Cognitive Studies — University of Siena (2021)
+- Languages: English (C2) | Italian (B2) | Persian (Native)
+
+## Get in touch
+
+- [LinkedIn](https://www.linkedin.com/in/majid-jafari-994527190/)
