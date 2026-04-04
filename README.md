@@ -1,6 +1,6 @@
 # Hi, I'm Majid Jafari
 
-**NLP Researcher | Foundation Models | Computational Linguistics | Language Acquisition**
+**NLP Researcher | LLMs & Foundation Models | Computational Linguistics**
 
 I'm a computational linguist based in Rome. I study how large language models like GPT-2 handle the kinds of linguistic tasks that children master during language acquisition, things like forming questions, applying morphological rules to new words, and processing incomplete sentences.
 
