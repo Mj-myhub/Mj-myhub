@@ -4,7 +4,7 @@
 
 I'm a computational linguist based in Rome, and I'm especially interested in large language models, transformer architectures, and the connection between language, cognition, and AI.
 
-My master's thesis at the University of Siena explored how deep learning models can be used to study language development. In particular, I fine-tuned GPT-2 on child-directed speech from the CHILDES database and tested the models on wh-questions, Berko’s wug test, aux-less questions, and other psycholinguistically motivated tasks. The project focused on question answering and text completion, with the goal of understanding how transformer-based models handle linguistic structure and generalisation.
+My master's thesis at the University of Siena explored how deep learning models can be used to study language development. In particular, I fine-tuned GPT-2 on child-directed speech from the CHILDES database and tested the models on wh-questions, Berkoâs wug test, aux-less questions, and other psycholinguistically motivated tasks. The project focused on question answering and text completion, with the goal of understanding how transformer-based models handle linguistic structure and generalisation.
 
 More generally, I'm interested in NLP research that combines technical work with linguistic insight, especially in areas related to language acquisition, model evaluation, and transformer-based language understanding.
 
@@ -68,4 +68,4 @@ I'm based in **Rome, Italy**, and I speak **English (C2)**, **Italian (B2)**, an
 ## Get in touch
 
 - [LinkedIn](https://www.linkedin.com/in/majid-jafari-39010413b/)
-- Email: `m.jeffrey2023@gmail.com`
+- Email: [m.jeffrey2023@gmail.com](mailto:m.jeffrey2023@gmail.com)
