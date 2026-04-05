@@ -4,7 +4,7 @@
 
 I'm a computational linguist based in Rome, and I'm especially interested in large language models, transformer architectures, and the connection between language, cognition, and AI.
 
-My master's thesis at the University of Siena explored this by fine-tuning GPT-2 at three different scales (117M, 345M, and 774M) on child-directed speech from the CHILDES database, then testing the models on wh-questions, Berko’s wug test, and other psycholinguistically motivated tasks. The 774M model reached 72–78% accuracy on wh-question benchmarks, and the results showed clear scaling-law patterns across the experiments.
+My master's thesis at the University of Siena explored how deep learning models can be used to study language development. In particular, I fine-tuned GPT-2 on child-directed speech from the CHILDES database and tested the models on wh-questions, Berko’s wug test, aux-less questions, and other psycholinguistically motivated tasks. The project focused on question answering and text completion, with the goal of understanding how transformer-based models handle linguistic structure and generalisation.
 
 More generally, I'm interested in NLP research that combines technical work with linguistic insight, especially in areas related to language acquisition, model evaluation, and transformer-based language understanding.
 
@@ -18,16 +18,21 @@ More generally, I'm interested in NLP research that combines technical work with
 ## Featured Projects
 
 ### [gpt2-language-acquisition](https://github.com/Mj-myhub/gpt2-language-acquisition)
-This project is based on my thesis work. It looks at how GPT-2 can be fine-tuned on child-directed speech to model aspects of language acquisition, with a focus on question answering, text completion, and linguistic generalisation.
+
+This project is based on my thesis work. It looks at how GPT-2 can be fine-tuned on child-directed speech to model aspects of language acquisition, with a focus on question answering, text completion, aux-less questions, and linguistic generalisation.
 
 **Tools:** Python, Google Colab, GPT-2, NLP experimentation
 
+- [Read the full thesis on ResearchGate](https://www.researchgate.net/publication/387508907_How_children_accurately_predict_the_integration_of_incoming_words_into_phrase_structure?channel=doi&linkId=6771e4fb9aff6eaaf7f566&showFulltext=true)
+
 ### [pytorch-nlp-experiments](https://github.com/Mj-myhub/pytorch-nlp-experiments)
+
 A collection of NLP and deep learning experiments built with PyTorch and related libraries. This repo reflects my practical interest in model training, evaluation, and transformer-based methods.
 
 **Tools:** Python, PyTorch, Hugging Face
 
 ### [nlp-coursework](https://github.com/Mj-myhub/nlp-coursework)
+
 Selected work from my academic background in NLP and computational linguistics, including experiments and notes related to language modelling, text analysis, and linguistic computation.
 
 **Tools:** Python, notebooks, NLP methods
