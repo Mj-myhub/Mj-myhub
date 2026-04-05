@@ -23,7 +23,6 @@ My master's thesis at the University of Siena explored this by fine-tuning GPT-2
 - M.Sc. Language and Mind: Linguistics and Cognitive Studies — University of Siena (2021)
 - Languages: English (C2) | Italian (B2) | Persian (Native)
 
-## Get in touch
 
 ## Get in touch
 
