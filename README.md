@@ -1,71 +1,67 @@
 # Hi, I'm Majid Jafari
 
-**NLP Researcher | LLMs & Foundation Models | Computational Linguistics**
+**NLP Researcher | LLMs, RAG & Agentic Systems | Computational Linguistics**
 
-I'm a computational linguist based in Rome, and I'm especially interested in large language models, transformer architectures, and the connection between language, cognition, and AI.
+I'm a computational linguist based in Rome, working at the intersection of large language models, transformer architectures, and the connection between language, cognition, and AI. Lately my focus has shifted toward building and rigorously evaluating LLM systems - retrieval-augmented generation, agentic pipelines, and multilingual evaluation harnesses - rather than just studying language models from a distance.
 
-My master's thesis at the University of Siena explored how deep learning models can be used to study language development. In particular, I fine-tuned GPT-2 on child-directed speech from the CHILDES database and tested the models on wh-questions, Berko's wug test, aux-less questions, and other psycholinguistically motivated tasks. The project focused on question answering and text completion, with the goal of understanding how transformer-based models handle linguistic structure and generalisation.
+My master's thesis at the University of Siena explored how deep learning models can be used to study language development. I fine-tuned GPT-2 on child-directed speech from the CHILDES database and tested the models on wh-questions, Berko's wug test, aux-less questions, and other psycholinguistically motivated tasks, focusing on how transformer-based models handle linguistic structure and generalisation.
 
-More generally, I'm interested in NLP research that combines technical work with linguistic insight, especially in areas related to language acquisition, model evaluation, and transformer-based language understanding.
+Since then I've moved into applied NLP engineering: building systems that don't just work, but that know - and can prove - what they do and don't know. That theme runs through most of my recent projects: verified vs. unverified corrections, cited vs. abstained answers, and judges that are audited rather than trusted blindly.
 
 ## What I'm working on
 
-- NLP and deep learning projects in Python
-- transformer-based language modelling
-- research inspired by language acquisition and psycholinguistics
-- research and practical projects in LLMs and foundation models
+- Agentic LLM systems (LangGraph) for real-world tasks like writing tutoring
+- Retrieval-augmented generation - hybrid BM25 + dense retrieval, reranking, query expansion
+- Evaluation-driven NLP: measuring precision/recall tradeoffs honestly instead of asserting quality
+- Multilingual evaluation of hallucination/faithfulness judges (English, Italian, Persian)
+- Deploying ML systems end-to-end - Docker, cloud (AWS), Hugging Face Spaces
 
 ## Featured Projects
 
-### [gpt2-language-acquisition](https://github.com/Mj-myhub/gpt2-language-acquisition)
+### [parla](https://github.com/Mj-myhub/parla) - Evaluation-driven agentic English writing tutor
+A LangGraph agent that gives English learners grammar feedback grounded in real rules, distinguishing verified corrections from unverified suggestions via a two-tier grounding check. Hybrid error detection (rules + spaCy + LLM), measured with ERRANT against hand-annotated learner writing.
+**Tools:** LangGraph, LangChain, ChromaDB, spaCy, Groq (Llama), Docker, pytest + CI
 
-This project is based on my thesis work. It looks at how GPT-2 can be fine-tuned on child-directed speech to model aspects of language acquisition, with a focus on question answering, text completion, aux-less questions, and linguistic generalisation.
+### [findoc-rag](https://github.com/Mj-myhub/findoc-rag) - RAG over SEC 10-K filings
+Answers financial questions grounded in real filings with citations, or honestly abstains when it can't find an answer. Hybrid BM25 + dense retrieval with RRF fusion and cross-encoder reranking, deployed via Docker to Hugging Face Spaces and AWS EC2, with a full ablation study of retrieval design choices.
+**Tools:** sentence-transformers, ChromaDB, rank-bm25, pdfplumber, Groq, FastAPI, Gradio
 
-**Tools:** Python, Google Colab, GPT-2, NLP experimentation
+### [multifaith](https://github.com/Mj-myhub/multifaith) - Multilingual faithfulness evaluation for RAG
+A harness that checks whether hallucination/groundedness judges can actually be trusted outside English, with first-class support for Italian and Persian. Compares LLM-as-judge, NLI, and classifier-based scorers against human-labelled gold data, motivated in part by EU AI Act evaluation requirements.
+**Tools:** Python, transformers, Cohen's kappa analysis, multilingual NLI
 
-- [Read the full thesis on ResearchGate](https://www.researchgate.net/publication/387508907_How_children_accurately_predict_the_integration_of_incoming_words_into_phrase_structure?channel=doi&linkId=6771e4fb9aff6eaaf7f566&showFulltext=true)
-
-### [pytorch-nlp-experiments](https://github.com/Mj-myhub/pytorch-nlp-experiments)
-
-A collection of NLP and deep learning experiments built with PyTorch and related libraries. This repo reflects my practical interest in model training, evaluation, and transformer-based methods.
-
-**Tools:** Python, PyTorch, Hugging Face
-
-### [nlp-coursework](https://github.com/Mj-myhub/nlp-coursework)
-
-Selected work from my academic background in NLP and computational linguistics, including experiments and notes related to language modelling, text analysis, and linguistic computation.
-
-**Tools:** Python, notebooks, NLP methods
+### [gpt2-language-acquisition](https://github.com/Mj-myhub/gpt2-language-acquisition) - Thesis project
+Fine-tuned GPT-2 (117M-774M) on CHILDES child-directed speech to model aspects of language acquisition, including wh-questions, aux-less questions, and linguistic generalisation.
+**Tools:** Python, Google Colab, GPT-2
 
 ## Interests
 
-- Large Language Models (LLMs)
-- Foundation Models
-- Computational Linguistics
-- Transformer Architectures
+- Large Language Models (LLMs) & Agentic Systems
+- Retrieval-Augmented Generation (RAG)
+- Multilingual NLP Evaluation & Hallucination Detection
+- Computational Linguistics & Psycholinguistics
 - Language Acquisition Modelling
-- Psycholinguistics and NLP
-- Text Generation and Evaluation
-- Corpus-based Language Research
+- Transformer Architectures
 
 ## Tech Stack
 
-**Languages & Tools:**  
-Python, Jupyter Notebook, Google Colab, Git
+**Languages & Tools:** Python, Jupyter Notebook, Git, Docker
 
-**ML / NLP:**  
-PyTorch, TensorFlow, Hugging Face, spaCy, NLTK, scikit-learn
+**LLM / Agentic:** LangGraph, LangChain, Groq (Llama), Hugging Face, prompt/agent evaluation
 
-**Other:**  
-Regular expressions, text preprocessing, corpus analysis
+**Retrieval & RAG:** ChromaDB, BM25 (rank-bm25), cross-encoder reranking, sentence-transformers, FastAPI, Gradio, Streamlit
+
+**ML / NLP:** PyTorch, TensorFlow, spaCy, NLTK, scikit-learn
+
+**Deployment:** Docker, AWS (EC2), Hugging Face Spaces, GitHub Actions CI
 
 ## Background
 
-I hold an M.Sc. in **Language and Mind: Linguistics and Cognitive Studies** from the **University of Siena**.
+I hold an M.Sc. in Language and Mind: Linguistics and Cognitive Studies from the University of Siena.
 
-I'm based in **Rome, Italy**, and I speak **English (C2)**, **Italian (B2)**, and **Persian (native)**.
+I'm based in Rome, Italy, and I speak English (C2), Italian (B2), and Persian (native).
 
 ## Get in touch
 
-- [LinkedIn](https://www.linkedin.com/in/majid-jafari-39010413b/)
-- Email: [m.jeffrey2023@gmail.com](mailto:m.jeffrey2023@gmail.com)
+- LinkedIn
+- Email: m.jeffrey2023@gmail.com
